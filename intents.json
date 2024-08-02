@@ -1,0 +1,154 @@
+{
+    "intents": 
+    [
+      {
+        "tag":"greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Hello"
+        ],
+        "responses": ["Hi, I hope you are having a great day/night. \nExpertise in deep learning, natural language processing and product management.  \nTo know more type in hobby, experience, projects,etc" ]
+      },
+
+      {
+        "tag":"yes",
+        "patterns": ["yes", "yes, please", "yes, schedule zoom"],
+        "responses":["Available slots - PST 9am 11am, 2pm, 3pm (preferred (Monday, Wednesday, Friday)). \nPlease go ahead and schdeule or else email me with your availability"]
+      },
+
+      {
+        "tag":"zoom",
+        "patterns": ["schedule zoom", 
+        "I would like to interview you", 
+        "I would like to hire you",
+        "I want to hire you",
+        "email", 
+        "I would like to schedule your interview",
+        "first interview",
+        "can i schedule zoom to interview",
+        "zoom",
+        "availability",
+        "hire"
+      ],
+        "responses": ["I appreciate it, - PST 9am, 11am, 2pm, 3pm (preferred (Monday, Wednesday, Friday)). \nor email me at sakshi97@bu.edu with your availability"]
+
+      },
+      {
+        "tag":"goodbye",
+        "patterns": ["Bye", 
+        "See you later",
+        "Goodbye"],
+        "responses": ["Have a fabulous day ahead"]
+      },
+      {
+        "tag":"thanks",
+        "patterns": ["Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!",
+        "Looking forward to the meeitng", 
+        "Looking forward to it"],
+        "responses": ["I appreciate your time, Have a great and productive time ahead :-) "]
+      },
+      {
+        "tag":"certification",
+        "patterns": [
+          "Which certifications do you have?",
+          "What kinds of certifications have you done?",
+          "certifications",
+          "certs",
+          "number of certifications",
+          "tell me which certifications you have done"
+        ],
+        "responses": [
+          "Deep Learning, NLP, AI/ML, Product management. Please Visit: https://www.linkedin.com/in/miss-sakshi/details/certifications/" ]
+      },
+      {
+        "tag":"payments",
+        "patterns": [ "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?","Are you cash only?",
+        "payments"
+      ],
+        "responses": ["I accept VISA, Mastercard, Venmo, Zelle, and Paypal, for paypal email me at sakshi97@bu.edu" ]
+      },
+      {
+        "tag":"delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?",
+          "delivery time",
+          "delivry",
+          "shipping"
+        ],
+        "responses": [ "Delivery/shipping takes 2-3 days, It will be send to your provided email" ]
+      },
+      {
+        "tag":"unique",
+        "patterns": [
+          "What is unique about you",
+          "Why should we hire you ?",
+          "Why should I hire you",
+          "unique qualities?",
+          "uniq",
+          "tell me something unique about you",
+          "strengths",
+          "strengt",
+          "strenth",
+          "what are your strengths"
+        ],
+        "responses": [
+          " \nFirst born daughter, strong yet empathetic. \nPunctuality is a virtue & one of my key strengths. \nCompliments often heard - 'beautiful listener'.  \nAdherence to balanced fitness regimen, criticial in sustaining a strong work ethic & optimal performance, plus a bit of an OCD.  \nI prioritize professionalism.  \nEmotionally intelligent through diverse experiences, enhancing my ability to navigate complex interpersonal dynamics." ]
+      },
+      {
+        "tag":"experience",
+        "patterns": [
+          "How many years of experiences do you have",
+          "experience ?",
+          "What are your industry experiences",
+          "Tell me number of years of experience",
+          "exp"
+        ],
+        "responses": [
+          " Product Manager contract 4 months. \nMachine learning Research intern - 1 year.  \nTravel industry and tech for 1.5 years. \nsemiconductor industry (PCB designing) - 5 months." ]
+      },
+      {
+        "tag":"projects",
+        "patterns": [
+          "How many projects have you done",
+          "projects?",
+          "proj",
+          "What are your projects",
+          "Tell me number of projects"
+        ],
+        "responses": [
+          "  MAchine LEarning, Deep Learing, NLP projects on github and on linkedin." ]
+      },
+
+      {
+        "tag":"hobbies",
+        "patterns": [
+          "How many hobbies do you have",
+          "hobbies?",
+          "What are your hobbies?",
+          "Tell me your hobbies",
+          "hobby"
+        ],
+        "responses": [
+          "\nMy hobbies are stayingg organized, chess, reading books, hiking.  \nState Level Basketball and Volleyball player, Taekwondo white belt, Badminton.  \nAdditionally, Scuba Diving, ping pong, checkers :)" ]
+      },
+      {
+        "tag":"funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny about yourself!",
+          "Do you know a joke?",
+          "Are you funny ? "
+        ],
+        "responses": [ "Yes I am funny but Chatgpt could do that for you"]
+      }
+    ]
+}
